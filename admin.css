@@ -1,0 +1,28 @@
+th{
+    color: rgb(173, 30, 94);
+    font-size: 24px;
+}
+#nodata{
+    color: rgba(250, 85, 85, 0.932);
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    color: green;
+    font-size: 30px;
+}
+#table{
+ display: flex;
+ margin: auto;
+ width: 80%;
+ background-color: rgba(148, 151, 151, 0.096);
+ border-radius: 6px;
+}
+
+
+td{
+  text-align: center;
+    color: green;
+    padding: 14px;
+    border-bottom: 1px solid rgb(228, 54, 54);
+}

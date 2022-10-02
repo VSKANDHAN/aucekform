@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration formcontent For Hostel Accommodation</title>
+</head>
+<body>
+    <div id="toph1">
+<h1>
+    RREGISTRATION FOR HOSTEL ACCOMMMODATION
+</h1>
+    </div>
+    <form action="form.php" method="post">
+        <div id="form">
+  
+        <div id="formcontent">
+              <label for="regno">Register Number (to be filled by office)</label>
+              <input type="text" id="regno" name="regno" required >
+        </div>
+  
+      <div id="formcontent"> 
+          <label for="sname">Name of the Student (in block letters)</label>
+          <input type="text" id="sname" name="sname" required>
+    </div>
+      <div id="formcontent">
+         <label for="branch">Course and Branch</label>
+        <select id="branch" name="branch" required>
+            <option  value="cse">Computer Science Engineering</option>
+            <option  value="ece">Electronics and Communication Engineering</option>
+            <option  value="eee">Electrical and Electronics Engineering</option>
+            <option  value="me">Mechanical Engineering</option>
+    
+        </select>
+    </div>
+
+      <div id="formcontent">   
+         <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+    </div>
+
+      <div id="formcontent">   
+         <label for="year">Year</label>
+        <select id="year" name="year" required>
+            <option   value="1">First Year</option>
+            <option   value="2">Second Year</option>
+    
+            <option  value="3">Third Year</option>
+    
+            <option  value="4">Fourth Year</option>
+    
+        </select>
+    </div>
+
+      <div id="formcontent">
+
+        <label for="sem">Semester</label>
+        <select id="sem" name="semester" required>
+            <option  value="1">First Semester</option>
+            <option  value="2">Second Semester</option>
+    
+            <option  value="3">Third Semester</option>
+    
+            <option  value="4">Fourth Semester</option>
+            <option  value="5">Fifth Semester</option>
+    
+            <option value="6">Sixth Semester</option>
+    
+            <option value="7">Seventh Semester</option>
+    
+            <option  value="8">Eighth Semester</option>
+    
+    
+        </select>
+    </div>
+
+      <div id="formcontent">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender"required>
+            <option  value="male">Male</option>
+            <option  value="female">Female</option>
+        </select>
+    </div>
+
+      <div id="formcontent">  
+        <label for="bloodgrp">Blood Group</label>
+        <input type="text" id="bloodgrp" name="bloodgrp" required>
+    </div>
+    <div id="formcontent">
+        <input id="submitbtn" type="submit">
+    </div>
+   
+  
+</div>
+
+
+
+</form>
+
+
+    
+    
+</body>
+</html>
